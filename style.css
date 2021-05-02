@@ -31,6 +31,7 @@ section.alternate-background {
 }
 
 main img {
+  display: flex;
   width: 100px;
 }
 
@@ -152,5 +153,9 @@ footer p {
 
   header nav {
     margin-top: 8px;
+  }
+
+  form {
+    flex-direction: row;
   }
 }
